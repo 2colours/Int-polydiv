@@ -1,0 +1,15 @@
+use Test;
+use Int::polydiv;
+my $current, my $expected;
+plan 3;
+$current = 48.polydiv: 5, 2;
+$expected = (9, 1, 1);
+is-deeply $current.List, $expected;
+$current = 48.polydiv: (5, 2).lazy;
+$expected = (9, 1, 1);
+is-deeply $current.List, $expected;
+$current = 16.polydiv: 16 xx *;
+$expected = (1, );
+is-deeply $current.List, $expected;
+
+done-testing;

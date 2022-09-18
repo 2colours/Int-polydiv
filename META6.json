@@ -1,0 +1,25 @@
+{
+  "auth": "zef:2colours",
+  "authors": [
+    "Polgár Márton"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "the counterpart of the polymod method",
+  "license": "Artistic-2.0",
+  "name": "Int::polydiv",
+  "perl": "6.d",
+  "provides": {
+    "Int::polydiv": "lib/Int/polydiv.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/2colours/Int-polydiv.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
